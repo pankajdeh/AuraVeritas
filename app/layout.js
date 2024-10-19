@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           <SpeedDials />
         </div>
         <div 
-        // className="fixed bottom-8 left-8 z-50"
+        className="fixed left-8 bottom-0 right-0 m-4 z-50  bg-transparent rounded-lg"
         >
         <Chatbot />
 

@@ -23,9 +23,9 @@ const Chatbot = () => {
   return (
     <div
       id="voiceflow-chat"
-      className="fixed bottom-0 right-0 m-4 z-50 bg-transparent rounded-lg"
+      // className="fixed  bottom-0 right-0 m-4 z-50  bg-transparent rounded-lg"
     ></div>
   );
 };
-
+//
 export default Chatbot;
