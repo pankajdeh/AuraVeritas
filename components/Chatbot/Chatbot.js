@@ -26,17 +26,15 @@ const Chatbot = () => {
     //   className="fixed  bottom-0 right-0 m-4 z-50  bg-transparent rounded-lg"
     // >
 
-<div
 
-className="flex flex-col justify-end h-full relative">
   <div
   id="voiceflow-chat"
-   className="fixed  bottom-0 right-0 m-4 z-50  bg-transparent rounded-lg"
+  className="fixed bottom-0 right-0 m-4 z-50 p- bg-transparent  shadow-lg rounded-lg" 
+  //  className="fixed  bottom-3 right-0 m-4 z-50  bg-transparent rounded-lg"
   >
 
   </div>
 
-</div>
   );
 };
 //
