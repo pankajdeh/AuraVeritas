@@ -32,15 +32,18 @@ export default function RootLayout({ children }) {
         {/* className={`${geistSans.variable} ${geistMono.variable} antialiased */}
         <Providers>
         <Nav/>
-         <div className="fixed bottom-8 right-8 z-50">
-          <SpeedDials />
-        </div>
+
         <div 
         className="fixed left-8 bottom-0 right-0 m-4 z-50  bg-transparent rounded-lg"
         >
         <Chatbot />
 
         </div>
+        
+         <div className="fixed bottom-8 right-8 z-50">
+          <SpeedDials />
+        </div>
+       
         
           {children}
           
