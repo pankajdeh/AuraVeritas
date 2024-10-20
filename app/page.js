@@ -19,7 +19,7 @@ export default function Home() {
 
 
   return (
-    <div className="relative w-full mx-auto   top-0 ">
+    <div className="relative  w-full mx-auto top-0 ">
     {/* Background video fixed to the homepage */}
 
     <div className="fixed top-0 left-0 w-[100vw] h-[100vh] -z-10">

@@ -26,27 +26,8 @@ const Hero = () => {
 
   
   return (
-    <div className="h-screen  relative w-full overflow-hidden">
-      {/* Background video or fallback image */}
-      {/* {videoError ? (
-        <Image
-          src={windmill}
-          alt="Fallback image"
-          layout="fill"
-          objectFit="cover"
-          className="brightness-50"
-        />
-      ) : (
-        <video
-          muted
-          loop
-          autoPlay
-          className="absolute top-0 left-0 w-full h-full object-cover brightness-50"
-          src="https://res.cloudinary.com/diifdlgwr/video/upload/v1727889444/jyh1jj0bj45qbvk3iss6.mov"
-          onError={() => setVideoError(true)} // Set videoError to true if video fails to load
-        />
-      )} */}
-
+    <div className="h-screen  relative w-full overflow-hidden ">
+     
       {/* Overlay content */}
       <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 px-4 text-center">
         {/* Main heading */}
