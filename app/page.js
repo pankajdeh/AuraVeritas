@@ -2,10 +2,8 @@
 
 
 import AboutUs from "@/components/AboutUs/AboutUS";
-// import Chatbot from "@/components/Chatbot/Chatbot";
 import ContactFormMain from "@/components/Contactuscomponents/ContactFormMain";
 import Hero from "@/components/Herocomponenets/Hero";
-import Nav from "@/components/Navbarcomponents/Nav";
 import OurServices from "@/components/OurServices/OurServices";
 import Image from "next/image";
 
@@ -21,7 +19,7 @@ export default function Home() {
 
 
   return (
-    <div className="relative  top-0 ">
+    <div className="relative w-full mx-auto   top-0 ">
     {/* Background video fixed to the homepage */}
 
     <div className="fixed top-0 left-0 w-[100vw] h-[100vh] -z-10">
@@ -50,7 +48,6 @@ export default function Home() {
     <OurServices />
     {/* <AboutUs /> */}
     <ContactFormMain />
-    {/* <Chatbot /> */}
   </div>
   
   );
