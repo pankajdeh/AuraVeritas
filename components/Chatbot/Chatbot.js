@@ -32,7 +32,7 @@ const Chatbot = () => {
   <div
   id="voiceflow-chat"
   // className="fixed bottom-0 right-0 m-4 z-50 p- bg-transparent  shadow-lg rounded-lg" 
-  className="fixed z-50 bottom-4 right-4 md:bottom-6 md:right-6 shadow-lg rounded-lg"
+  className="fixed z-50 bottom-4 right-4 md:bottom-6 md:right-6 shadow-lg rounded-lg will-change-transform"
   >
 
   </div>
